@@ -13,3 +13,7 @@ Repositório destinado a ser um tutorial básico de Python para Análise de Dado
 - Lembrar de não recriar a roda
 - Deixar tudo bem didático
 - Exercícios simples, com tabelas dadas por mim 
+- Instroduzir os conseitos e fazer algo bem teórico
+- Equilibrar carga prática e teórica
+- Colocar um código de conduta e um de contribuição
+- Templates de issue e pull request
