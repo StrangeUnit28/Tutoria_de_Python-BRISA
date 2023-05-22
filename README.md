@@ -1,8 +1,8 @@
-# Tutoria de Python - BRISA
+# Tutoria de Python para Análise de Dados - BRISA
 
 ## Descrição
 
-Repositório destinado a ser um tutorial básico de Python para Análise de Dados do projeto BRISA 
+Repositório destinado a ser um tutorial de Python para do projeto BRISA. O leitor será introduzido a linguagem e bibliotecas relevantes a análise de dados (Pandas, Numpy e MatPlotlib), além de tecnologias que aumentarão a eficiência na criação de um projeto.
 
 ## Introdução Python
 
@@ -14,6 +14,7 @@ Por ser uma linguagem de sintaxe relativamente simples e de fácil compreensão,
 
 Python é uma linguagem poderosa, possui uma grande comunidade e uma vasta quantidade de bibliotecas, o que faz com que essa seja uma linguagem muito versátil e de fácil aprendizado devido ao grande número de documentações. A seguir estão algumas dass principais áreas onde o Python é utilizado:
 
+<br>
 
 1 - Scripting e automação: Algumas das bibliotecas para essa área são [Pywin32](https://wiki.python.org.br/PyWin32) e [Selenium](https://www.selenium.dev/pt-br/documentation/)
 
@@ -43,6 +44,8 @@ Python é uma linguagem poderosa, possui uma grande comunidade e uma vasta quant
 
     - É uma linguagem “curinga”
 
+</br>
+
 - ### Desvantagens
 
     - Aplicações que lidam diretamente com o hardware
@@ -54,6 +57,8 @@ Python é uma linguagem poderosa, possui uma grande comunidade e uma vasta quant
     - Aplicações nativas com interfaces gráficas
     
     - Aplicações com vida útil muito longa  
+
+</br>
 
 - ### Instalação
 
@@ -78,23 +83,84 @@ Python é uma linguagem poderosa, possui uma grande comunidade e uma vasta quant
             ```
             pacman -S python3
             ```
-     
+
      - **Windows**
 
     Para fazer o Download do Python para Windows acesse o site [Python Download](https://www.python.org/downloads/)
 
-     - **Mac OS** 
+<br>
+
+## Introdução Venv
+
+- ### Descrição 
+
+O **virtualenv(Venv)** no Python é utilizado para isolar a versão do Python e das bibliotecas usadas em um determinado sistema.
+
+Caso você não utilize o Venv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
+
+<br>
+
+- ### Cenário
+
+Você foi contratado para desenvolver um sistema de análise de dados pela empresa A e para isso você utilizará o Python 3.7.4 e as bibliotecas pandas e numpy.
+
+Esta mesma empresa te contrata para montar um sistema de cadastro e você opta por utilizar o mesmo Python 3.7.4, porém, como você irá disponibilizar este sistema na intranet deles, você usa o Flask, psycopg2 (para acesso ao PostgreSQL) e o marshmallow.
+
+Você tem o hobby de criar jogos e resolve estudar o pygame, porém, a versão do Python escolhida é o 3.8.1
+
+Um amigo pediu para você fazer um web scrapping e você resolve testar o Python 3.9. Além disso, você irá utilizar as bibliotecas requests e bs4 (BeautifulSoup)
+
+<br>
+
+- ### Solução
+
+Caso você não utilize Venv **para cada projeto**, você teria que utilizar o Python instalado no seu sistema e teria que colocar todas as bibliotecas nele. Isso causaria um problema de gerenciamento das bibliotecas.
+
+<br>
+
+- ### Problema
+
+A passagem "para cada projeto" foi grifada, pois caso você utilize um Venv para todos os projetos, você resolve apenas o isolamento do ambiente frente ao Python do sistema operacional, **porém não resolve o gerenciamento das bibliotecas usadas e nem teria a possibilidade de usar versões de Python diferentes.**
+
+<br>
+
+- ### Vantagem
+
+Caso você use a mesma biblioteca em dois projetos diferentes e necessite fazer o upgrade dela em um dos projetos, isso é possível com Venv. O mesmo caso, sem Venv, seria arriscado, pois você poderia "quebrar" o sistema que não necessita da atualização.
+
+(Fonte: MARQUES, Paulo. 2020) [2]
+
+<br>
+
+- ### Importante
+
+Para mais informações de como criar, gerenciar e como funcionam os Venv no Python, acesse a [Documentação do Venv](https://docs.python.org/pt-br/3/library/venv.html).
+
+**Dica:** Utilizem ou aprendam a utilizar um Venv, pois a maioria dos projetos em Python fazem uso dessa tecnologia, além disso ao utilizar Venv vocês diminiuem a possibilidade de inconsistência de versões de linguagem e de bibliotecas.
+
+<br>
 
 ## Introdução Pandas
 
+
+
+<br>
+
 ## Introdução NumPy
+
+<br>
 
 ## Introdução MatPlotlib
 
+<br>
+
 ## Referências Bibliográficas
 
-[1] Kenzie Academy Brasil, ["O que é Python"](https://kenzie.com.br/blog/o-que-e-python/). Acesso em 18/05/2023
+[1] Kenzie Academy Brasil, ["O que é Python ?"](https://kenzie.com.br/blog/o-que-e-python/). Acesso em 18/05/2023
 
+[2] Stack Overflow, ["Para que serve o Venv no Python ?](https://pt.stackoverflow.com/questions/482743/para-que-serve-o-virtualenv-no-python#:~:text=O%20virtualenv%20do%20Python%20%C3%A9%20utilizado%20para%20isolar,sistema%20seriam%20instaladas%20no%20ambiente%20do%20sistema%20operacional.). Acesso em 22/05/2023
+
+[3] 
 
 ## Metas 
 
