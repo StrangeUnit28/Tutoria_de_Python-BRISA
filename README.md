@@ -16,17 +16,17 @@
 
 <br>
 
-&emsp;&emsp;1 - Scripting e automação: Algumas das bibliotecas para essa área são [Pywin32](https://wiki.python.org.br/PyWin32) e [Selenium](https://www.selenium.dev/pt-br/documentation/)
+&emsp;&emsp;1 - Scripting e automação: Algumas das bibliotecas para essa área são [Pywin32](https://wiki.python.org.br/PyWin32) e [Selenium](https://www.selenium.dev/pt-br/documentation/);
 
-&emsp;&emsp;2 - Desenvolvimento web: A linguagem possui uma extensa variedade de frameworks para todos os tipos de gosto, entre eles os famosos [Django](https://docs.djangoproject.com/pt-br/4.2/), [Flask](https://flask.palletsprojects.com/en/2.3.x/) e [FastAPI](https://pythonacademy.com.br/blog/como-usar-o-fastapi-para-construir-apis-no-python#:~:text=O%20FastAPI%20%C3%A9%20uma%20biblioteca%20Python%20que%20permite,APIs%20seguras%2C%20documentadas%20e%20test%C3%A1veis%20de%20maneira%20eficiente.).
+&emsp;&emsp;2 - Desenvolvimento web: A linguagem possui uma extensa variedade de frameworks para todos os tipos de gosto, entre eles os famosos [Django](https://docs.djangoproject.com/pt-br/4.2/), [Flask](https://flask.palletsprojects.com/en/2.3.x/) e [FastAPI](https://pythonacademy.com.br/blog/como-usar-o-fastapi-para-construir-apis-no-python#:~:text=O%20FastAPI%20%C3%A9%20uma%20biblioteca%20Python%20que%20permite,APIs%20seguras%2C%20documentadas%20e%20test%C3%A1veis%20de%20maneira%20eficiente.);
     
-&emsp;&emsp;3 - Enquadramento de testes: Isso justifica por que desenvolvedores de software em Python adoram utilizar TDD (Test Driven Development). Para mais informações sobre essa técnica, acesse [TDD](https://kenzie.com.br/blog/o-que-e-tdd/)
+&emsp;&emsp;3 - Enquadramento de testes: Isso justifica por que desenvolvedores de software em Python adoram utilizar TDD (Test Driven Development). Para mais informações sobre essa técnica, acesse [TDD](https://kenzie.com.br/blog/o-que-e-tdd/);
     
-&emsp;&emsp;4 - Big Data: Para essa área o Python tem como a principal biblioteca o [Pandas](https://pandas.pydata.org/docs/)
+&emsp;&emsp;4 - Big Data: Para essa área o Python tem como a principal biblioteca o [Pandas](https://pandas.pydata.org/docs/);
     
-&emsp;&emsp;5 - Ciência de dados: Nesse tutorial iremos focar nessa área, onde vamos conhecer as bibliotecas [Pandas](https://pandas.pydata.org/docs/), [NumPy](https://numpy.org/doc/stable/) e [MatPlot](https://matplotlib.org/stable/index.html)
+&emsp;&emsp;5 - Ciência de dados: Nesse tutorial iremos focar nessa área, onde vamos conhecer as bibliotecas [Pandas](https://pandas.pydata.org/docs/), [NumPy](https://numpy.org/doc/stable/) e [MatPlot](https://matplotlib.org/stable/index.html);
     
-&emsp;&emsp;6 - Computação gráfica: Pacotes de soluções para esta área, como [PyOpenGL](https://pyopengl.sourceforge.net/documentation/) e [PyGame](https://www.pygame.org/docs/)
+&emsp;&emsp;6 - Computação gráfica: Pacotes de soluções para esta área, como [PyOpenGL](https://pyopengl.sourceforge.net/documentation/) e [PyGame](https://www.pygame.org/docs/);
     
 &emsp;&emsp;7 - Inteligência artificial: Entre as bibliotecas mais comuns voltadas ao aprendizado de máquina estão o [TensorFlow](https://www.tensorflow.org/about/bib?hl=pt-br), [PyThorch](https://pytorch.org/docs/stable/index.html), [Theano](https://theano.readthedocs.io/en/0.8.x/), [Keras](https://keras.io/getting_started/).
 
@@ -87,6 +87,42 @@
      - **Windows**
 
 &emsp;&emsp;Para fazer o Download do Python para Windows acesse o site [Python Download](https://www.python.org/downloads/)
+
+<br>
+
+## Introdução PyPI e pip
+
+- ### Descrição
+
+&emsp;&emsp;O PyPI é um repositório centralizado que hospeda milhares de pacotes de software desenvolvidos pela comunidade Python. Ele permite que os desenvolvedores compartilhem suas bibliotecas, frameworks e ferramentas com outros usuários do Python em todo o mundo. O PyPI desempenha um papel fundamental na promoção do compartilhamento e da colaboração dentro da comunidade Python.
+
+&emsp;&emsp;O PyPI possui uma [interface da web](https://pypi.org/) que permite aos desenvolvedores pesquisar e explorar pacotes disponíveis. Você pode procurar por palavras-chave, categorias ou nome do pacote. Além disso, você pode obter informações detalhadas sobre um pacote específico, como a versão mais recente, a documentação e os requisitos de instalação.
+
+<br>
+
+- ### Instalando pacotes do PyPI
+
+&emsp;&emsp;A instalação de pacotes do PyPI é simples e pode ser feita usando a ferramenta **pip**. Com o pip, você pode especificar o nome do pacote que deseja instalar e ele cuidará de baixar e instalar todas as dependências necessárias automaticamente.
+
+<br>
+
+- ### Mas a final o que é pip ?
+
+&emsp;&emsp;O pip é um **sistema de gerenciamento de pacotes** padrão utilizado para instalar e gerenciar pacotes de software escritos na linguagem Python.
+
+&emsp;&emsp;Além disso, a maioria das distribuições do Python já vem com o pip pré-instalado, então muito provavelmente você já possui esse gerenciador instalado em sua máquina. Caso não possua, acesse [aqui](https://packaging.python.org/pt_BR/latest/guides/installing-using-pip-and-virtual-environments/).
+
+&emsp;&emsp;Primeiramente, devemos entender que o comando pip deve ser executado em linha de comando para realizar a instalação dos pacotes. Por exemplo, se você quer instalar um pacote é necessário utilizar o comando abaixo:
+
+```
+pip install nome-de-algum-pacote
+```
+
+&emsp;&emsp;Além disso você também pode desinstalar um pacote utilizando o comando abaixo:
+
+```
+pip uninstall nome-de-algum-pacote 
+```
 
 <br>
 
@@ -166,17 +202,19 @@
 
 ## Referências Bibliográficas
 
-[1] Kenzie Academy Brasil, ["O que é Python ?"](https://kenzie.com.br/blog/o-que-e-python/).  Acesso em 18/05/2023
+[1] Kenzie Academy Brasil, ["O que é Python ?"](https://kenzie.com.br/blog/o-que-e-python/).  Acesso em 18/05/2023;
 
-[2] Stack Overflow, ["Para que serve o Venv no Python ?"](https://pt.stackoverflow.com/questions/482743/para-que-serve-o-virtualenv-no-python#:~:text=O%20virtualenv%20do%20Python%20%C3%A9%20utilizado%20para%20isolar,sistema%20seriam%20instaladas%20no%20ambiente%20do%20sistema%20operacional.).  Acesso em 22/05/2023
+[2] Stack Overflow, ["Para que serve o Venv no Python ?"](https://pt.stackoverflow.com/questions/482743/para-que-serve-o-virtualenv-no-python#:~:text=O%20virtualenv%20do%20Python%20%C3%A9%20utilizado%20para%20isolar,sistema%20seriam%20instaladas%20no%20ambiente%20do%20sistema%20operacional.).  Acesso em 22/05/2023;
 
-[3] Alura, [Pandas: o que é, para que serve e como instalar](https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar)
+[3] Alura, [Pandas: o que é, para que serve e como instalar](https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar). Acesso em 22/05/2023;
+
+[4] AMARAL, Douglas - [PyPI: O ecossistema de pacotes do Python](https://www.linkedin.com/pulse/pypi-o-ecossistema-de-pacotes-do-python-douglas-amaral/?originalSubdomain=pt). Acesso em 24/05/2023;  
+
+[5] Programador Viking, [Pip Python: 4 Formas De Utilização Desse Gerenciador de Pacotes](https://programadorviking.com.br/pip-python-4-formas-de-utilizacao-desse-gerenciador-de-pacotes/#:~:text=O%20pip%20%C3%A9%20um%20sistema%20de%20gerenciamento%20de,e%20suas%20depend%C3%AAncias%20%E2%80%93%20Python%20Package%20Index%20%28PyPI%29.). Acesso em 24/05/2023;
 
 ## Metas 
 
-- Todo repositório deve ser pensado para o sistema Linux
 - Linkar toda documentação e referênciar tudo que possível
-- Dar exemplo de tudo, talvez usando o jupiter notebook
 - Percorrer o básico de python, pandas, numpy e análise de dados (DataFrames), além de um tutorial básico de plotar gráficos
 - Lembrar de não recriar a roda
 - Deixar tudo bem didático
