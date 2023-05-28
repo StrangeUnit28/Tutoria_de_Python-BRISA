@@ -262,16 +262,3 @@ pip install matplotlib
 [4] AMARAL, Douglas - [PyPI: O ecossistema de pacotes do Python](https://www.linkedin.com/pulse/pypi-o-ecossistema-de-pacotes-do-python-douglas-amaral/?originalSubdomain=pt). Acesso em 24/05/2023;  
 
 [5] Programador Viking, [Pip Python: 4 Formas De Utilização Desse Gerenciador de Pacotes](https://programadorviking.com.br/pip-python-4-formas-de-utilizacao-desse-gerenciador-de-pacotes/#:~:text=O%20pip%20%C3%A9%20um%20sistema%20de%20gerenciamento%20de,e%20suas%20depend%C3%AAncias%20%E2%80%93%20Python%20Package%20Index%20%28PyPI%29.). Acesso em 24/05/2023;
-
-## Metas 
-
-- Linkar toda documentação e referênciar tudo que possível
-- Percorrer o básico de python, pandas, numpy e análise de dados (DataFrames), além de um tutorial básico de plotar gráficos
-- Lembrar de não recriar a roda
-- Deixar tudo bem didático
-- Exercícios simples, com tabelas dadas por mim 
-- Instroduzir os conseitos e fazer algo bem teórico
-- Equilibrar carga prática e teórica
-- Colocar um código de conduta e um de contribuição
-- Templates de issue e pull request
-- Pypi e pip
