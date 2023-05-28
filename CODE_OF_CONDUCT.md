@@ -1,9 +1,9 @@
 # Código de Conduta 
 
-## Nosso compromisso <!-- omit in toc -->
-  Nós enquanto membros e contribuidores do projeto prezamos por um ambiente livre de assédio, independentemente, da idade, deficiência visível ou não, etnia, gênero, 
+## Nosso compromisso 
+Nós enquanto membros e contribuidores do projeto prezamos por um ambiente livre de assédio, independentemente, da idade, deficiência visível ou não, etnia, gênero, 
 orientação sexual, nível de experiência, escolaridade, status socioeconômico, nacionalidade, aparência, raça ou religião.
-  Temos o compromisso de agir e interagir de forma a cooperar para um ambiente aberto, amigável, diverso, inclusivo, e saudável.
+Temos o compromisso de agir e interagir de forma a cooperar para um ambiente aberto, amigável, diverso, inclusivo, e saudável.
   
 ## Nossos padrões:
 
@@ -67,7 +67,7 @@ público.
 
 ## Contribuição:
 
-  Para detalhes de como contribuir de maneira correta para com o projeto acesse: [Guia de Contribuição]()
+  Para detalhes de como contribuir de maneira correta para com o projeto acesse: [Guia de Contribuição](CONTRIBUTING.md)
   
 
 ## Referências:
