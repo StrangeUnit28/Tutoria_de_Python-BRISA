@@ -2,7 +2,7 @@
 
 ## Descrição
 
-&emsp;&emsp;Repositório destinado a ser um tutorial de Python para o projeto BRISA. O leitor será introduzido a linguagem e bibliotecas relevantes a análise de dados (Pandas, Numpy e MatPlotlib), além de tecnologias que aumentarão a eficiência na criação de um projeto.
+&emsp;&emsp;Repositório destinado a ser uma tutoria de Python para o projeto BRISA. O leitor será introduzido a linguagem e bibliotecas relevantes a análise de dados (Pandas, Numpy e MatPlotlib), além de tecnologias que aumentarão a eficiência na criação de um projeto.
 
 ## Introdução Python
 
