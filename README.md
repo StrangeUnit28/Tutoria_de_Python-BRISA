@@ -6,6 +6,8 @@
 
 ## Introdução Python
 
+<img src="./img/python_logo.png" style="width: 200px; margin: 0 auto; display: block;">
+
 - ### Descrição
 
 &emsp;&emsp;Python é uma linguagem de programação de alto nível, dinâmica, interpretada, modular, multiplataforma e que suporta uma arquitetura orientada a objetos.
@@ -92,6 +94,8 @@
 
 ## Introdução PyPI e pip
 
+<img src="./img/pypi_logo.png" style="width: 200px; margin: 0 auto; display: block;">
+
 - ### Descrição
 
 &emsp;&emsp;O PyPI é um repositório centralizado que hospeda milhares de pacotes de software desenvolvidos pela comunidade Python. Ele permite que os desenvolvedores compartilhem suas bibliotecas, frameworks e ferramentas com outros usuários do Python em todo o mundo. O PyPI desempenha um papel fundamental na promoção do compartilhamento e da colaboração dentro da comunidade Python.
@@ -176,6 +180,8 @@ pip uninstall nome-de-algum-pacote
 
 ## Introdução Pandas
 
+<img src="./img/pandas_logo.png" style="width: 200px; margin: 0 auto; display: block;">
+
 - ### Descrição
 
 &emsp;&emsp;Pandas é uma biblioteca para Ciência de Dados de código aberto (open source), construída sobre a linguagem Python, e que providencia uma abordagem rápida e flexível, com estruturas robustas para se trabalhar com dados relacionais (ou rotulados), e tudo isso de maneira simples e intuitiva.
@@ -188,15 +194,50 @@ pip uninstall nome-de-algum-pacote
 
 - ### Instalação
 
+&emsp;&emsp;Pandas can be installed via pip from [PyPI](https://pypi.org/project/pandas/).
 
-
+```
+pip install pandas
+```
 <br>
 
 ## Introdução NumPy
 
+<img src="./img/numpy_logo.png" style="width: 200px; margin: 0 auto; display: block;">
+
+- ### Descrição
+
+&emsp;&emsp;NumPy é o pacote fundamental para computação científica em Python. É uma biblioteca em Python que fornece um objeto de array multidimensional, vários objetos derivados (como arrays mascarados e matrizes) e uma variedade de rotinas para operações rápidas em arrays, incluindo operações matemáticas, lógicas, manipulação de forma, ordenação, seleção, I/O, transformadas de Fourier discretas, álgebra linear básica, operações estatísticas básicas, simulação aleatória e muito mais.
+
+<br>
+
+- ### Instalação
+
+&emsp;&emsp;Se você já possui o Python, pode instalar o NumPy utilizando:
+
+```
+pip install numpy
+```
+
 <br>
 
 ## Introdução MatPlotlib
+
+<img src="./img/matplotlib_logo.png" style="width: 200px; margin: 0 auto; display: block;">
+
+- ### Descrição
+
+&emsp;&emsp;Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
+<br>
+
+- ### Instalação
+
+&emsp;&emsp;Se você já possui o Python, pode instalar o MatPlotlib utilizando:
+
+```
+pip install matplotlib
+```
 
 <br>
 
