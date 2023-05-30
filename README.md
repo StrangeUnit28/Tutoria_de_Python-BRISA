@@ -251,6 +251,18 @@ pip install matplotlib
 
 <br>
 
+## Gostou da ideia desse repositório ?
+
+&emsp;&emsp;Caso a resposta seja sim, fique a vontade para contribuir com este projeto, afinal o melhor jeito de aprender é fazer. Para contribuir basta ler o [Código de Conduta](CODE_OF_CONDUCT.md) para uma comunidade segura e respeitosa, além disso ler o [Guia de Contribuição](CONTRIBUTING.md) e, obviamente, se possuir qualquer dúvida, basta perguntar na área de [Discussão](https://github.com/StrangeUnit28/Tutoria_de_Python-BRISA/discussions), se quiser responder a perguntas nessa área também, fique a vontade. 
+
+<br>
+
+## Vamos Começar a Praticar
+
+&emsp;&emsp;Clique aqui para iniciar alguns exercícios -> **[Só vem](./exercicios/)**
+
+<br>
+
 ## Referências Bibliográficas
 
 [1] Kenzie Academy Brasil, ["O que é Python ?"](https://kenzie.com.br/blog/o-que-e-python/).  Acesso em 18/05/2023;
