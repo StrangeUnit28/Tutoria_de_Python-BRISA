@@ -1,5 +1,3 @@
-#
-
 # Inicializando uma variável com valor de string marcada pelas aspas ("Widsom City")
 string = "Gama - DF"
 
