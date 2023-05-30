@@ -237,7 +237,7 @@ pip install numpy
     
 - ### Descrição
 
-&emsp;&emsp;Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+&emsp;&emsp;Matplotlib é uma biblioteca compreensiva para criação de visualizações estáticas, animadas, e interativas em Python.
 
 <br>
 
