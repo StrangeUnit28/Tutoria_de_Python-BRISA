@@ -1,0 +1,26 @@
+import numpy as np
+
+"""O numpy é a principal biblioteca para arrays 
+    e manipulação de dados numéricos em Python. Nesse arquivo
+    veremos criação e manipulações básicas de arrays.
+    """
+
+# Criando um array unidimensional
+arr1 = np.array([1, 2, 3, 4, 5])
+print("Array unidimensional:")
+print(arr1)
+
+# Criando um array bidimensional
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])
+print("\nArray bidimensional:")
+print(arr2)
+
+# Acessando elementos em um array
+print("\nAcessando elementos:")
+print(arr1[0])  # Acessa o primeiro elemento do arr1
+print(arr2[1, 2])  # Acessa o elemento na segunda linha e terceira coluna do arr2
+
+# Verificando o formato do array
+print("\nFormato do array:")
+print(arr1.shape)  # Retorna uma tupla com o formato do arr1
+print(arr2.shape)  # Retorna uma tupla com o formato do arr2
