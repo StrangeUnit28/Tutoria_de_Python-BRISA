@@ -2,7 +2,7 @@
 
 ## Introdução
 
-&emsp;&emsp;Nesse mesmo diretório esta disponível um arquivo que representa todas as transferências públicas realizadas no mês de maio de 2023, além disso, abaixo estão exercícios que devem ser realizados em cima desses dados. Aproveite !!!
+Nesse mesmo diretório esta disponível um arquivo que representa todas as transferências públicas realizadas no mês de maio de 2023, além disso, abaixo estão exercícios que devem ser realizados em cima desses dados. Aproveite !!!
 
 ## Exercícios
 
