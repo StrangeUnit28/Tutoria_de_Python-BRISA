@@ -41,3 +41,13 @@ x += 10
 x -= 10 # x = x - 10
 x *= 10 # x = x * 10
 x /= 10 # x = x / 10
+
+# Operadores de comparação, comparam 2 valores e retornam verdadeiro o falso
+# '==' Igual, '!=' diferente, '>' maior, '<' menor, '>=' maior ou igual, '<=' menor ou igual
+
+#Usos
+
+# O principal uso é na tomada de decisões do código, por exemplo:
+hora = 8
+if hora == 8:
+    print("Fim do expediente")
