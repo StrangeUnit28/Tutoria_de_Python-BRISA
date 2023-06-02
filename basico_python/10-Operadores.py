@@ -51,3 +51,19 @@ x /= 10 # x = x / 10
 hora = 8
 if hora == 8:
     print("Fim do expediente")
+
+# Operadores lógicos, utilizados para combinar condicionais
+# 'and' = e lógico, 'or' = ou lógico, 'not' negação
+
+# and: retorna true se as condicionais são verdadeiras
+if hora == 8 and x > 0:
+    print("Já são 8 horas e x > 0")
+
+# or: retorna true se qualquer condicional for veradeira
+if hora == 5 or x > 0:
+    print("Não são 5 horas mas x > 0")
+
+# not: inverte o valor
+if not(hora == 5 or x > 0):
+    print("Print não ocorre pois a comparação de valor true foi negada")
+
