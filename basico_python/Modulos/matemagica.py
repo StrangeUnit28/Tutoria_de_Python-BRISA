@@ -1,4 +1,4 @@
-"""Módulo criado para funções básicas da mátematica"""
+"""Módulo criado para funções básicas da matemática"""
 def soma(x, y):
     """Soma dois números"""
     return x + y
