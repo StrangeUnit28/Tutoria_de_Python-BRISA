@@ -67,3 +67,5 @@ if hora == 5 or x > 0:
 if not(hora == 5 or x > 0):
     print("Print não ocorre pois a comparação de valor true foi negada")
 
+# Existem mais operadores que podem auxiliar na escrita de um código mais rápido e legível
+# Porém os básicos mais utilizados estão citados acima
