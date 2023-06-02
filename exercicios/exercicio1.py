@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 df = pd.read_csv('transferencias - 05_2023.csv')
 
@@ -14,3 +15,13 @@ print(
     "Valor minímo: " + f'{valor_min}' +
     "\nValor máximo: " + f'{valor_max}' +
     "\nMédia: " + f'{media}')
+
+valores = df['VALOR TRANSFERIDO']
+favorecidos = df['TIPO FAVORECIDO']
+fig = plt.figure(figsize = (30, 15))
+
+plt.bar(favorecidos, valores, color ='blue', width = 0.4)
+plt.xlabel("Tipos Favorecidos")
+plt.ylabel("Valor Transferido")
+plt.title("Valores transferidos para cada tipo")
+plt.show()
