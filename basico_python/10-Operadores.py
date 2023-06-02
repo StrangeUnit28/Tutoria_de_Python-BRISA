@@ -6,7 +6,9 @@
 x = 10 + 5
 
 # Em python temos diversos tipos de operadores:
+
 # Operadores aritméticos, são utilizados em contas matemáticas
+
 # '+' = soma, '-' = subtração, '*' = multiplicação, '/' = divisão, '%' = módulo, '**' = exponenciação '//' = divisão interia
 
 # Usos:
@@ -26,3 +28,16 @@ print("Exponenciação (10 ** 5) = " + f'{10 ** 5}')
 # O operador '//' retorna somente a parte inteira da divisão entre dois números
 print("Floor (11 // 5) = " + f'{11 // 5}')
 
+# Operadores de atribuição, são utilizados para atribuir valores a variáveis
+# O operador universal de atribuição é o '='
+
+# Usos:
+
+x = 10
+
+# O operador de '=' pode ser combinado com operadores aritméticos e lógicos, assim reduzindo linhas de código
+# Ao invés de escrever x = x + 10 podemos realizar podemos optar por:
+x += 10
+x -= 10 # x = x - 10
+x *= 10 # x = x * 10
+x /= 10 # x = x / 10
