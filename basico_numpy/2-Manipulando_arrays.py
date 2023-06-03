@@ -23,3 +23,43 @@ print(inteiros[0:10:2])
 
 # Imprimindo somento os números impares do array
 print(inteiros[1:10:2])
+
+# Tipos de dados, em numpy temos um método que retorna o tipo de dado do array
+# Os tipos de dados possíveis em um array do NumPy são:
+# i - integer
+# b - boolean
+# u - unsigned integer
+# f - float
+# c - complex float
+# m - timedelta
+# M - datetime
+# O - object
+# S - string
+# U - unicode string
+# V - fixed chunk of memory for other type
+
+# Imprime o tipo de dado do array
+print(arr.dtype)
+
+# É possível criar um array com um tipo de dado pré definido
+# No caso abaixo o NumPy já realiza a conversão de inteiro para string
+arr = np.array([0, 1, 2], dtype='S')
+print(arr.dtype)
+
+# Obs: Caso não seja possível converter o dado o NumPy levanta um "ValueError"
+
+# Para os tipos de dados: i, u, f, S e U é possível definir o tamanho que sera ocupado em bytes
+
+# Criando um array de inteiros de 2 bytes
+arr = np.array([0, 1, 2], dtype='i2')
+print(arr.dtype)
+
+# É possível converter o tipo de dado de um array após a sua criação
+
+# Criando array de strings
+arr = np.array([0, 1, 2], dtype='S')
+print(arr.dtype)
+
+# Repassando array como inteiros de 8 bytes
+arr = arr.astype('i8')
+print(arr.dtype)
