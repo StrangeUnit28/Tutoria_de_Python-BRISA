@@ -85,11 +85,6 @@ df.drop('nome_da_coluna', axis=1, inplace=True)
 df.sort_values('nome_da_coluna', ascending=False, inplace=True)
 ```
 
-- Agrupar e resumir os dados:
-
-```
-df.groupby('nome_da_coluna').mean()
-```
 
 ### Obs: Os metodos possuem diversos atributos podendo ter mais funções ainda do que as vistas desse modo e recomendado consultar a documentação caso seja necessario aplicações expecificas.
 
