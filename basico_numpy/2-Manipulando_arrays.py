@@ -63,3 +63,17 @@ print(arr.dtype)
 # Repassando array como inteiros de 8 bytes
 arr = arr.astype('i8')
 print(arr.dtype)
+
+# Método Copy, copia o array para uma nova variável
+arr = np.array([0, 1, 2], dtype='S')
+arr_copy = arr.copy()
+
+print(f'{arr}' + " = " + f'{arr_copy}')
+
+# Método View, copia o array para uma nova variável 
+# porém quando um array é alterado o outro sofre a mesma alteração
+arr = np.array([0, 1, 2], dtype='S')
+arr_view = arr.view()
+arr[0] = '2'
+
+print(f'{arr}' + " = " + f'{arr_view}')
