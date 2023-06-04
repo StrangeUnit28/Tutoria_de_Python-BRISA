@@ -251,6 +251,31 @@ pip install matplotlib
 
 <br>
 
+## Introdução ao FastAPI
+
+<div align="center">
+<img src="./img/FastAPI.png" style="width: 480px; height: 200px">
+</div>
+    
+- ### Descrição
+
+&emsp;&emsp;O FastAPI é uma biblioteca Python que permite criar APIs RESTful e GraphQL de forma rápida e fácil.
+
+Ele é baseado em outras bibliotecas populares como o Starlette para o backend e o Pydantic para validação e parsing de dados.
+
+Com o FastAPI, é possível criar APIs seguras, documentadas e testáveis de maneira eficiente.
+
+<br>
+
+- ### Instalação
+
+&emsp;&emsp;Se você já possui o Python, pode instalar o FastAPI utilizando:
+
+```
+pip install fastapi uvicorn
+```
+
+<br>
 ## Gostou da ideia desse repositório ?
 
 &emsp;&emsp;Caso a resposta seja sim, fique a vontade para contribuir com este projeto, afinal o melhor jeito de aprender é fazer. Para contribuir basta ler o [Código de Conduta](CODE_OF_CONDUCT.md) para uma comunidade segura e respeitosa, além disso ler o [Guia de Contribuição](CONTRIBUTING.md) e, obviamente, se possuir qualquer dúvida, basta perguntar na área de [Discussão](https://github.com/StrangeUnit28/Tutoria_de_Python-BRISA/discussions), se quiser responder a perguntas nessa área também, fique a vontade. 
