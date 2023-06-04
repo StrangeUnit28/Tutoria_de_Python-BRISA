@@ -42,7 +42,7 @@ público.
 - Correção:
 
     - Causa: Uso de linguagem inapropriada ou outro comportamento julgado não profissional ou não aceito pelas diretrizes do projeto.
-    - Consequência: Uma mensagem privada, escrita pelos líderes do projeto, fornecendo esclarecimentos sobre o porquê da atitude serinapropriada. Um pedido de
+    - Consequência: Uma mensagem privada, escrita pelos líderes do projeto, fornecendo esclarecimentos sobre o porquê da atitude ser inapropriada. Um pedido de
     desculpas público pode ser solicitado.
 
 - Advertência:
