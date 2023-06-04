@@ -21,7 +21,7 @@ venda = {'data': ['15/02/2021', '16/02/2021'],
 vendas_df = pd.DataFrame(venda) 
 
 # Terceiro - A partir de um arquivo de dados.
-vendas_df = pd.read_excel(os.getcwd()+'/basico_panda/'+"Vendas.xlsx")
+vendas_df = pd.read_excel(os.getcwd()+'/basico_pandas/'+"Vendas.xlsx")
 
 # ----------------------------------------------------------------------------------
 # Resumos de Visualização de Dados simples e úteis.
@@ -65,7 +65,7 @@ vendas_df.loc[:, "Imposto"] = 0
 # ----------------------------------------------------------------------------------
 # Adicionando linhas
 # Vamos adicionar as vendas de dezembro, para isso, utilizamos o método concat.
-vendas_dez_df = pd.read_excel(os.getcwd()+'/basico_panda/'+"Vendas - Dez.xlsx")
+vendas_dez_df = pd.read_excel(os.getcwd()+'/basico_pandas/'+"Vendas - Dez.xlsx")
 vendas_df = pd.concat([vendas_df, vendas_dez_df], ignore_index=True)
 
 # ----------------------------------------------------------------------------------
@@ -110,6 +110,6 @@ faturamento_produto = vendas_df[['Produto', 'Valor Final']].groupby('Produto').s
 # Mesclar dataframes
 # Podemos mesclar dataframes, no nosso exemplo, queremos mesclar os gerentes das lojas com os dados da venda.
 # Como o arquivo 'Gerentes.xlsx' possui uma coluna igual ao que temos na 'Vendas.xlsx', o pandas consegue fazer o merge automaticamente.
-gerentes_df = pd.read_excel(os.getcwd()+'/basico_panda/'+"Gerentes.xlsx")
+gerentes_df = pd.read_excel(os.getcwd()+'/basico_pandas/'+"Gerentes.xlsx")
 vendas_df = vendas_df.merge(gerentes_df)
 print(vendas_df)
