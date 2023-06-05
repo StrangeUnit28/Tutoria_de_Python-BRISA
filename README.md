@@ -28,7 +28,7 @@
     
 &emsp;&emsp;4 - Big Data: Para essa área o Python tem como a principal biblioteca o [Pandas](https://pandas.pydata.org/docs/);
     
-&emsp;&emsp;5 - Ciência de dados: Nesse tutorial iremos focar nessa área, onde vamos conhecer as bibliotecas [Pandas](https://pandas.pydata.org/docs/), [NumPy](https://numpy.org/doc/stable/) e [MatPlot](https://matplotlib.org/stable/index.html);
+&emsp;&emsp;5 - Ciência de dados: Nesse tutorial iremos focar nessa área, onde vamos conhecer as bibliotecas [Pandas](https://pandas.pydata.org/docs/), [NumPy](https://numpy.org/doc/stable/) e [MatPlotlib](https://matplotlib.org/stable/index.html);
     
 &emsp;&emsp;6 - Computação gráfica: Pacotes de soluções para esta área, como [PyOpenGL](https://pyopengl.sourceforge.net/documentation/) e [PyGame](https://www.pygame.org/docs/);
     
@@ -192,15 +192,19 @@ pip uninstall nome-de-algum-pacote
 
 &emsp;&emsp;Pandas é uma biblioteca para Ciência de Dados de código aberto (open source), construída sobre a linguagem Python, e que providencia uma abordagem rápida e flexível, com estruturas robustas para se trabalhar com dados relacionais (ou rotulados), e tudo isso de maneira simples e intuitiva.
 
+&emsp;&emsp;Para mais informações sobre essa tecnologia, acesse a documentação [Pandas](https://pandas.pydata.org/docs/).
+
 <br>
 
 - ### Curiosidade
 
 &emsp;&emsp;Apesar do nome da biblioteca ser associado ao mamífero da família de ursos, tal qual o Python é associado com a espécie de cobra **erroneamente**, o nome da biblioteca Pandas é derivado do termo **Pan**el **Da**ta, um conceito em inglês relacionado ao campo de estudo da econometria.
 
+<br>
+
 - ### Instalação
 
-&emsp;&emsp;Pandas can be installed via pip from [PyPI](https://pypi.org/project/pandas/).
+&emsp;&emsp;Pandas pode ser instalado via pip do [PyPI](https://pypi.org/project/pandas/).
 
 ```
 pip install pandas
@@ -216,6 +220,8 @@ pip install pandas
 - ### Descrição
 
 &emsp;&emsp;NumPy é o pacote fundamental para computação científica em Python. É uma biblioteca em Python que fornece um objeto de array multidimensional, vários objetos derivados (como arrays mascarados e matrizes) e uma variedade de rotinas para operações rápidas em arrays, incluindo operações matemáticas, lógicas, manipulação de forma, ordenação, seleção, I/O, transformadas de Fourier discretas, álgebra linear básica, operações estatísticas básicas, simulação aleatória e muito mais.
+
+&emsp;&emsp;Para mais informações sobre essa tecnologia, acesse a documentação [NumPy](https://numpy.org/doc/stable/).
 
 <br>
 
@@ -237,7 +243,7 @@ pip install numpy
     
 - ### Descrição
 
-&emsp;&emsp;Matplotlib é uma biblioteca compreensiva para criação de visualizações estáticas, animadas, e interativas em Python.
+&emsp;&emsp;Matplotlib é uma biblioteca compreensiva para criação de visualizações estáticas, animadas, e interativas em Python. Para mais informações sobre essa tecnologia, acesse a documentação [MatPlotlib](https://matplotlib.org/stable/index.html).
 
 <br>
 
@@ -259,11 +265,9 @@ pip install matplotlib
     
 - ### Descrição
 
-&emsp;&emsp;O FastAPI é uma biblioteca Python que permite criar APIs RESTful e GraphQL de forma rápida e fácil.
+&emsp;&emsp;O FastAPI é uma biblioteca Python que permite criar APIs RESTful e GraphQL de forma rápida e fácil. Ele é baseado em outras bibliotecas populares como o Starlette para o backend e o Pydantic para validação e parsing de dados. Com o FastAPI, é possível criar APIs seguras, documentadas e testáveis de maneira eficiente.
 
-Ele é baseado em outras bibliotecas populares como o Starlette para o backend e o Pydantic para validação e parsing de dados.
-
-Com o FastAPI, é possível criar APIs seguras, documentadas e testáveis de maneira eficiente.
+&emsp;&emsp;Para mais informações sobre essa tecnologia, acesse a documentação [FastAPI](https://pythonacademy.com.br/blog/como-usar-o-fastapi-para-construir-apis-no-python#:~:text=O%20FastAPI%20%C3%A9%20uma%20biblioteca%20Python%20que%20permite,APIs%20seguras%2C%20documentadas%20e%20test%C3%A1veis%20de%20maneira%20eficiente.).
 
 <br>
 
@@ -276,6 +280,7 @@ pip install fastapi uvicorn
 ```
 
 <br>
+
 ## Gostou da ideia desse repositório ?
 
 &emsp;&emsp;Caso a resposta seja sim, fique a vontade para contribuir com este projeto, afinal o melhor jeito de aprender é fazer. Para contribuir basta ler o [Código de Conduta](CODE_OF_CONDUCT.md) para uma comunidade segura e respeitosa, além disso ler o [Guia de Contribuição](CONTRIBUTING.md) e, obviamente, se possuir qualquer dúvida, basta perguntar na área de [Discussão](https://github.com/StrangeUnit28/Tutoria_de_Python-BRISA/discussions), se quiser responder a perguntas nessa área também, fique a vontade. 
