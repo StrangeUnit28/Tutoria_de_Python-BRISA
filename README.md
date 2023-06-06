@@ -182,6 +182,82 @@ pip uninstall nome-de-algum-pacote
 
 <br>
 
+## Introdução ao virtualenvwrapper
+
+- ### Descrição
+
+&emsp;&emsp;A ferramenta `virtualenvwrapper` foi criada para facilitar o gerenciamento de múltiplos ambientes virtuais Python. É uma extensão de um programa mais antigo, o `virtualenv`, sendo que este trabalha usando a tecnologia nativa do Python para criação de ambientes isolados, a `venv`.
+
+&emsp;&emsp;Os principais recursos desta ferramenta são:
+
+- centralização do gerenciamento de ambientes virtuais
+- possibilidade de cópia de ambientes virtuais
+- possibilidade de nomeação de ambientes virtuais
+- sistema de *plugins* para extensão da ferramenta
+
+- ### Instalação
+
+&emsp;&emsp;A instalação pode ser feita através do gerenciados de pacotes de sua distribuição GNU/Linux. Recomenda-se a instalação do gerenciador de pacotes `pip` para instalação módulos e bibliotecas Python no ambiente virtual criado. Nas distribuições baseadas em Debian, pode-se instalar a ferramenta com o comando:
+
+```
+apt install virtualenvwrapper python3-pip
+```
+
+&emsp;&emsp;Caso esteja em uma distribuição antiga que ainda inclua o Python 2, talvez seja útil incluir a instalação de uma ferramenta que mapeie o comando `python` para `python3`, como a `python-is-python3`.
+
+&emsp;&emsp;Após a instalação, é necessário importar as funções do `virtualenvwrapper` no arquivo de inicialização do *shell* do usuário. No caso de um usuário que use o *shell* Bash, isso pode ser feito no arquivo `~/.bashrc`:
+
+```bash
+echo 'source /usr/share/virtualenvwrapper/virtualenvwrapper.sh' >> ~/.bashrc
+```
+
+Após a atualização do arquivo de configuração do *shell*, é necessário abrir um novo *shell* ou recarregar o arquivo no atual:  
+  
+```bash
+source ~/.bashrc
+```
+
+- ### Usando a ferramenta
+
+&emsp;&emsp;A documentação do `virtualenvwrapper` e de seus comandos associados encontra-se na base de manuais de seu sistema operacional ou na [página web do projeto](https://virtualenvwrapper.readthedocs.io/en/latest/index.html)
+
+- #### Criando um ambiente virtual
+
+&emsp;&emsp;A criação do ambiente virtual é feita pelo comando `mkvirtualenv`:
+
+```
+mkvirtualenv nome-do-ambiente-virtual
+```
+
+&emsp;&emsp;Esse comando ainda permite a criação de ambientes virtuais a partir de uma lista de bibliotecas do `pip`:
+
+```
+mkvirtualenv -r lista-de-bibliotecas nome-do-ambiente-virtual
+```
+
+- #### Usando um ambiente virtual
+
+&emsp;&emsp;Para usar um ambiente virtual criado com a ferramenta, usa-se o comando `workon`:
+
+```
+workon meu-ambiente
+```
+
+- #### Saindo de um ambient virtual
+
+&emsp;&emsp;O retorno para o *shell* comum é feito a partir do comando `deactivate`.
+
+- #### Gerando uma lista de bibliotecas
+
+&emsp;&emsp;É importante gerenciar a configuração de seu ambiente virtual, de modo a descrevê-lo para outros desenvolvedores e possibilitar que este seja reproduzido em outras máquinas.
+
+&emsp;&emsp;Em ambientes virtuais que usam o gerenciador de pacotes `pip`, a obtenção de um arquivo que descreve as bibliotecas instaladas pode ser feita através do comando *shell*:
+
+
+```
+pip freeze > nome-do-arquivo
+```
+
 ## Introdução Pandas
 
 <div align="center">
